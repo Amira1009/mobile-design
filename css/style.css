@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+}
+
+.div-contanier {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 13550px;
+    font-family: Hanken Grotesk;
+
+
+}
+
+
+
+
+.first-sction {
+    text-align: center;
+    background-color: rgba(122, 43, 226, 0.973);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.number {
+    font-size: 60px;
+    border-radius: 50px;
+    border-radius: 50px;
+    font-weight: bolder;
+    background-color: ;
+    
+
+}
+
+
+
+.first-ph {
+    font-size: 20px;
+
+}
+
+
+
+li a {
+    display: flex;
+    list-style: none;
+    text-decoration: unset;
+    gap: 10px;
+}
+
+ul {
+    list-style: none;
+    font-family: Hanken Grotesk;
+
+
+}
+
+.sec-ph {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.color-Reaction {
+    padding-right: 20px;
+    background-color: rgba(220, 20, 60, 0.425);
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+.color-Reaction a {
+    color:rgba(220, 20, 60, 0.829); 
+
+}
+
+.color-Memory {
+    padding-right: 20px;
+    background-color: rgba(255, 255, 0, 0.507);
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.color-Memory a {
+    color: rgba(255, 68, 0, 0.822);
+}
+
+.color-Verbal {
+    padding-right: 20px;
+    background-color: rgba(0, 139, 139, 0.315);
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.color-Verbal a {
+    color:rgba(0, 139, 139, 0.986) ;
+}
+
+.color-Visual {
+    padding-right: 20px;
+    background-color: rgba(153, 50, 204, 0.459);
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px;
+
+
+}
+
+button {
+    background-color: darkslategrey;
+    color: white;
+    border: 1px solid ;
+    border-radius: 50px;;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 18px 130px;
+    margin-left: 500px;
+
+
+}
+
+
+
+
+
+.small-number {
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.differnt-number {
+    margin-right: 40px;
+}
+
+p {
+    margin-left: auto;
+}
+
+.cricle {
+    background-color: darkorchid;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 100px;
+    margin-left: 600px;
+}
+
