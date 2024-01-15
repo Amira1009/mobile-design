@@ -1,27 +1,35 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk';
+}
+
+
+
 body {
     margin: 0;
+
 }
 
 .div-contanier {
     margin-right: auto;
     margin-left: auto;
-    max-width: 13550px;
     font-family: Hanken Grotesk;
+    max-width: 1440px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 
 }
 
-
-
-
 .first-sction {
     text-align: center;
-    background-color: rgba(122, 43, 226, 0.973);
-    color: white;
+    background-color: hsl(246, 100%, 67%)  ;
+    color:  hsl(0, 0%, 100%) ;
     padding-top: 10px;
     padding-bottom: 80px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+
 }
 
 .number {
@@ -29,42 +37,68 @@ body {
     border-radius: 50px;
     border-radius: 50px;
     font-weight: bolder;
-    background-color: ;
-    
+    padding-top: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+
 
 }
+
+.cricle {
+    background-color:rgba(78, 33, 202, 0.582) ;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 100px;
+    margin-left: 590px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+.cricle span {
+    color:  rgba(245, 222, 179, 0.637) ;
+}
+
 
 
 
 .first-ph {
-    font-size: 20px;
+    font-size: 18px;
+
 
 }
 
+.sec-section {
+    margin-right: auto;
+    nav-left: auto;
+    max-width: 1440px;
+}
 
+.Summary {
+    margin-left: 60px;
+}
 
 li a {
     display: flex;
     list-style: none;
     text-decoration: unset;
-    gap: 10px;
+    gap: 20px;
 }
 
 ul {
     list-style: none;
-    font-family: Hanken Grotesk;
-
-
 }
 
 .sec-ph {
     margin-right: auto;
     margin-left: auto;
+    font-size: 18px;
 }
 
 .color-Reaction {
     padding-right: 20px;
-    background-color: rgba(220, 20, 60, 0.425);
+    background-color:hsl(221, 100%, 96%) ;
     border-radius: 50px;
     margin: 5px;
     padding: 10px;
@@ -72,52 +106,59 @@ ul {
 
 
 .color-Reaction a {
-    color:rgba(220, 20, 60, 0.829); 
+    color:hsl(0, 100%, 67%) ; 
+    
 
 }
 
 .color-Memory {
     padding-right: 20px;
-    background-color: rgba(255, 255, 0, 0.507);
+    background-color: hsl(221, 100%, 96%);
     border-radius: 50px;
     margin: 5px;
     padding: 10px;
 }
 
 .color-Memory a {
-    color: rgba(255, 68, 0, 0.822);
+    color: hsl(39, 100%, 56%);
 }
 
 .color-Verbal {
     padding-right: 20px;
-    background-color: rgba(0, 139, 139, 0.315);
+    background-color:hsl(221, 100%, 96%) ;
     border-radius: 50px;
     margin: 5px;
     padding: 10px;
 }
 
 .color-Verbal a {
-    color:rgba(0, 139, 139, 0.986) ;
+    color: hsl(166, 100%, 37%);
 }
 
 .color-Visual {
     padding-right: 20px;
-    background-color: rgba(153, 50, 204, 0.459);
+    background-color: hsl(221, 100%, 96%) ;
     border-radius: 50px;
     margin: 5px;
     padding: 10px;
 
-
 }
 
+.color-Visual a {
+    color: hsl(234, 85%, 45%);
+
+    
+}
+
+
 button {
-    background-color: darkslategrey;
-    color: white;
+    background-color: hsl(224, 30%, 27%);
+    color:  hsl(0, 0%, 100%) ;
     border: 1px solid ;
     border-radius: 50px;;
     font-size: 20px;
     cursor: pointer;
-    padding: 18px 130px;
+    padding: 18px 150px;
     margin-left: 500px;
 
 
@@ -130,22 +171,23 @@ button {
 .small-number {
     margin-right: 40px;
     margin-top: 30px;
+    color: hsl(224, 30%, 27%);
+}
+
+.small-number span {
+    color: black;
 }
 
 .differnt-number {
     margin-right: 40px;
+    color: hsl(224, 30%, 27%);
+}
+
+.differnt-number span {
+    color: black;
 }
 
 p {
     margin-left: auto;
+    font-size: 18px;
 }
-
-.cricle {
-    background-color: darkorchid;
-    width: 150px;
-    height: 150px;
-    text-align: center;
-    border-radius: 100px;
-    margin-left: 600px;
-}
-
