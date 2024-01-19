@@ -23,7 +23,7 @@ body {
 
 .first-sction {
     text-align: center;
-    background-color: hsl(246, 100%, 67%)  ;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%))  ;
     color:  hsl(0, 0%, 100%) ;
     padding-top: 10px;
     padding-bottom: 80px;
@@ -46,7 +46,7 @@ body {
 }
 
 .cricle {
-    background-color:rgba(78, 33, 202, 0.582) ;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0)) ;
     width: 150px;
     height: 150px;
     text-align: center;
@@ -65,6 +65,7 @@ body {
 
 .first-ph {
     font-size: 18px;
+    color: rgba(245, 222, 179, 0.733);
 
 
 }
@@ -76,7 +77,9 @@ body {
 }
 
 .Summary {
-    margin-left: 60px;
+    margin-left: 30px;
+    padding: 15px;
+
 }
 
 li a {
@@ -84,10 +87,12 @@ li a {
     list-style: none;
     text-decoration: unset;
     gap: 20px;
+    
 }
 
 ul {
     list-style: none;
+    padding-left: 0;
 }
 
 .sec-ph {
@@ -98,10 +103,10 @@ ul {
 
 .color-Reaction {
     padding-right: 20px;
-    background-color:hsl(221, 100%, 96%) ;
-    border-radius: 50px;
-    margin: 5px;
-    padding: 10px;
+    background-color: rgba(255, 87, 87, 0.05); ;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 5px;
 }
 
 
@@ -113,10 +118,10 @@ ul {
 
 .color-Memory {
     padding-right: 20px;
-    background-color: hsl(221, 100%, 96%);
-    border-radius: 50px;
-    margin: 5px;
-    padding: 10px;
+    background-color: rgba(255, 176, 31, 0.05);
+    border-radius: 8px;
+    margin: 15px;
+    padding: 5px;
 }
 
 .color-Memory a {
@@ -125,9 +130,9 @@ ul {
 
 .color-Verbal {
     padding-right: 20px;
-    background-color:hsl(221, 100%, 96%) ;
-    border-radius: 50px;
-    margin: 5px;
+    background-color:rgba(0, 189, 145, 0.05);
+    border-radius: 20px;
+    margin: 15px;
     padding: 10px;
 }
 
@@ -137,10 +142,10 @@ ul {
 
 .color-Visual {
     padding-right: 20px;
-    background-color: hsl(221, 100%, 96%) ;
-    border-radius: 50px;
-    margin: 5px;
-    padding: 10px;
+    background-color: rgba(17, 37, 212, 0.05);
+    border-radius: 8px;
+    margin: 15px;
+    padding: 5px;
 
 }
 
@@ -152,14 +157,19 @@ ul {
 
 
 button {
-    background-color: hsl(224, 30%, 27%);
+    background-color: #303B5A;;
     color:  hsl(0, 0%, 100%) ;
     border: 1px solid ;
     border-radius: 50px;;
     font-size: 20px;
     cursor: pointer;
-    padding: 18px 150px;
-    margin-left: 500px;
+    padding: 25px ;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    
+
+    
 
 
 }
@@ -175,16 +185,23 @@ button {
 }
 
 .small-number span {
-    color: black;
+    color: rgb(0, 0, 0);
+    font-weight: bold ;
+}
+
+.small-number p {
+    color: rgba(0, 0, 0, 0.753);
+
 }
 
 .differnt-number {
     margin-right: 40px;
-    color: hsl(224, 30%, 27%);
+    color: rgba(0, 0, 0, 0.712);
 }
 
 .differnt-number span {
     color: black;
+    font-weight: bold ;
 }
 
 p {
